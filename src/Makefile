@@ -14,7 +14,7 @@ CORE_SOURCES  != find core -type f -name '*.c'
 CORE_OBJECTS  = $(CORE_SOURCES:.c=.o)
 
 # Default Programs
-CC		= i586-elf-gcc
+CC		= i686-elf-gcc
 NASM		= nasm
 
 #### Flags ####
